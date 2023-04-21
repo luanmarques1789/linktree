@@ -104,14 +104,21 @@ body {
 	/*  animation   */
 	overflow: hidden;
 	background: linear-gradient(
-		90deg,
-		var(--bgColor),
-		var(--accentColor),
-		var(--bgColor)
+		to right,
+		red,
+		orange,
+		yellow,
+		green,
+		blue,
+		indigo,
+		violet,
+		red
 	);
+	/* -webkit-background-clip: text; */
+	/* -webkit-text-fill-color: transparent; */
 	background-repeat: no-repeat;
-	background-size: 80%;
-	animation: animate 8s linear var(--delay) infinite;
+	background-size: 85%;
+	animation: animate 10s linear infinite;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255, 0);
