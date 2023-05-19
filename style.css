@@ -50,6 +50,13 @@ body {
 	text-decoration: none;
 }
 
+p.rolesTitle {
+	/* font-style: oblique; */
+	color: white;
+	text-align: center;
+	
+}
+
 #links {
 	max-width: 675px;
 	width: auto;
