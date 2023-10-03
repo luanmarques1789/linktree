@@ -54,7 +54,6 @@ p.rolesTitle {
 	/* font-style: oblique; */
 	color: white;
 	text-align: center;
-	
 }
 
 #links {
@@ -66,6 +65,12 @@ p.rolesTitle {
 
 #links a {
 	margin-bottom: 2vh;
+}
+
+a.link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .link {
